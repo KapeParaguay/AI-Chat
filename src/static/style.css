@@ -1,0 +1,47 @@
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #chat-area {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .alert {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        word-wrap: break-word;
+    }
+
+    .alert-primary {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .alert-secondary {
+        background-color: #6c757d;
+        color: #fff;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .alert {
+            font-size: 12px;
+        }
+    }
+
